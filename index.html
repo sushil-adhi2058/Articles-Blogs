@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKREHES ACADEMIA | Educational, Interactive and Research Organization.</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--secondary);
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+         
+        
+        .article-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            padding: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .article-header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1.5rem;
+        }
+        
+        .article-title {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .article-meta {
+            color: #fafafa;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .article-content h2 {
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+            font-size: 1.8rem;
+        }
+        
+        .article-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .article-content ul {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        .article-content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .social-links {
+            margin: 1rem 0;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary);
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--secondary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .article-title {
+                font-size: 2rem;
+            }
+            
+            .article-content {
+                padding: 2rem;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+            }
+            
+            nav ul li {
+                margin: 5px 10px;
+            }
+        }
+         
+
+.logo-link {
+    display: block;
+}
+
+.logo-img {
+    height: 200px;
+    width: auto;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container logo-container">
+        <a href="index.html" class="logo-link">
+            <img src="akrehes.png" alt="Akrehes Academia Logo" class="logo-img">
+        </a>
+        <div>
+            <h1>AKREHES ACADEMIA</h1>
+            <p>An Educational, Interactive & Research Organization.</p>
+        </div>
+    </div>
+</header>
+
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <article class="article-container">
+            <header class="article-header">
+                <h1 class="article-title">Revealing Protein Structure and Its Far-Reaching Impacts</h1>
+                <div class="article-meta">
+                    Published on June 3, 2024 | 8 min read
+                </div>
+            </header>
+            
+            <div class="article-content">
+                <p>This piece aims to outline the discovery of protein structure and its applications in countless areas. Readers can expect to find out how computational tools and protein design have aided in the revelation of more than a million protein structures, their intrinsic function, and their functional significance in day-to-day situations.</p>
+                
+                <h2>Understanding Protein Structure</h2>
+                <p>First, let us describe what protein structure is. A protein is just an amino acid chain. An amino acid contains a central carbon atom attached to an amine group on one end and a carbonyl group on the other and an attached side chain—one of 20 different incarnations—that determines the identity of the amino acid.</p>
+                
+                <p>The amine group of one amino acid can be paired with the carbonyl group of another to form a peptide bond. A number of amino acids linked together create a polypeptide chain. Within this chain, electrostatic force, hydrogen bonding, and interaction with solvents cause the string to fold into a three-dimensional shape—this is the structure of the protein.</p>
+                
+                <h2>Early Methods of Determining Protein Structure</h2>
+                <p>The initial technique of protein structure determination was X-ray crystallography, in which the diffraction pattern produced due to crystallized proteins was tracked. In this, X-rays were passed through the protein crystal and the diffraction pattern thus created was utilized to predict the structure below. The procedure, however, was too long, taking years to determine the structure of a single protein.</p>
+                
+                <h2>Computational Advances in Protein Structure Prediction</h2>
+                <p>Then, computers were employed by biologists and chemists to predict protein structures. An example of such an attempt is that made by David Baker, who designed a computer game called Foldit. The objective in Foldit was to fold provided protein structures as well as possible using provided tools. Scientists analyzed the best-scoring solutions to determine whether these conformations (native states) were possible for proteins in reality.</p>
+                
+                <p>Demis Hassabis later created an AI algorithm for playing Foldit. This allowed AI and not human beings to predict protein structures, greatly accelerating the process and increasing accuracy. Years of work later, over 200 million proteins' structures were solved—an achievement that earned David Baker, Demis Hassabis, and John M. Jumper a Nobel Prize in Chemistry award in 2024.</p>
+                
+                <h2>Applications of Protein Structure Research</h2>
+                <p>Protein structure knowledge has numerous problem-solving uses, including:</p>
+                
+                <ul>
+                    <li><strong>Climate Change Mitigation:</strong> Carbonic anhydrases catalyze the reaction of CO₂ to bicarbonate, reducing the CO₂ levels in the environment. Engineered microbes based on protein structures can potentially eat greenhouse gases.</li>
+                    
+                    <li><strong>Waste Management:</strong> Certain enzymes (e.g., PETase) break down plastics. Creating more efficient forms can eliminate pollution.</li>
+                    
+                    <li><strong>Medicine:</strong> Protein structure research is the backbone of modern drug development, enabling faster discovery of treatment and more disease understanding at the molecular level.</li>
+                    
+                    <li><strong>Regulation of Greenhouse Gas:</strong> Methanotroph and denitrifying bacterial proteins regulate the release of methane and nitrous oxide.</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AKREHES ACADEMIA. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Load Font Awesome for icons
+        const loadFontAwesome = () => {
+            const faScript = document.createElement('script');
+            faScript.src = 'https://kit.fontawesome.com/a076d05399.js';
+            faScript.crossOrigin = 'anonymous';
+            document.head.appendChild(faScript);
+        };
+        
+        // Load fonts for better typography
+        const loadFonts = () => {
+            const link = document.createElement('link');
+            link.href = 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap';
+            link.rel = 'stylesheet';
+            document.head.appendChild(link);
+        };
+        
+        // Initialize functions when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            loadFontAwesome();
+            loadFonts();
+        });
+    </script>
+</body>
+</html>
